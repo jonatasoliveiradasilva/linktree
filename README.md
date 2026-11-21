@@ -103,8 +103,29 @@ linktree/
 
 ## Entre em Contato
 
-- https://www.github.com/jonatasoliveiradasilva
-- https://www.instagram.com/o_xonatas
-- https://www.linkedin.com/in/jonatasoliveiradasilva
+<p align="left">
+    <a
+        href="https://wwww.github.com/jonatasoliveiradasilva"
+        target="_blank"
+    >
+        <img
+            height="35px"
+            src="./assets/images/github-logo.png"
+            alt="Logo do Github"
+            title="Github"
+        />
+    </a>
+    <a
+        href="https://www.linkedin.com/in/jonatasoliveiradasilva"
+        target="_blank"
+    >
+        <img
+            height="35px"
+            src="./assets/images/linkedin-logo.png"
+            alt="Logo do LinkedIn"
+            title="LinkedIn"
+        />
+    </a>
+</p>
 
 ### ⭐ Se este projeto despertou seu interesse, fique à vontade para conhecer os meus outros repositórios!
