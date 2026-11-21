@@ -101,12 +101,6 @@ linktree/
 
 - Mais do que desenvolver uma página visualmente agradável, busco compreender cada etapa da construção, aplicar boas práticas e evoluir continuamente como desenvolvedor.
 
-## Jônatas Oliveira da Silva
-
-### Desenvolvedor Front End Júnior | HTML | CSS | JavaScript | React
-
-- Estou em busca da minha primeira oportunidade profissional na área de desenvolvimento Front End, com disposição para aprender, colaborar e transformar conhecimento em soluções.
-
 ## Entre em Contato
 
 - https://www.github.com/jonatasoliveiradasilva
