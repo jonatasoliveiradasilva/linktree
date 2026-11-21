@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <meta
+            name="description"
+            content="Conheça Jônatas Oliveira da Silva, Desenvolvedor Front End Jr. Acesse seus projetos, redes sociais e contatos"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
+        <script src="js/scripts.js" defer></script>
+        <title>Jônatas Oliveira da Silva | Linktree</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <h1 class="cabecalho__titulo">Jônatas Oliveira da Silva</h1>
+        </header>
+        <main class="container">
+            <section
+                class="perfil"
+                aria-labelledby="titulo-perfil"
+            >
+                <img
+                    class="perfil__imagem"
+                    src="./assets/images/perfil-imagem.jpeg"
+                    alt="Foto de perfil do Jônatas Oliveira da Silva"
+                />
+                <h2 class="perfil__titulo" id="titulo-perfil">Olá, eu sou o Jônatas!</h2>
+                <p class="perfil__cargo">Desenvolvedor Front End Jr.</p>
+                <p class="perfil__descricao">Transformo ideias em experiências digitais através da tecnologia.</p>
+            </section>
+            <section class="sobre" aria-labelledby="titulo-sobre">
+                <h2 class="sobre__titulo" id="titulo-sobre">Sobre mim</h2>
+                <p class="sobre__descricao">
+                    Atualmente estou estudando (aprendendo e reaprendendo) HTML, CSS, JavaScript e React,
+                    buscando aprimorar as minhas habilidades na área (Front End).
+                </p>
+                <button
+                    class="sobre__botao"
+                    type="button"
+                    id="botao-sobre"
+                    aria-expanded="false"
+                    aria-controls="conteudo-sobre"
+                >
+                    Saiba mais
+                </button>
+                <div class="sobre__conteudo" id="conteudo-sobre" hidden>
+                    <p>Foco em Desenvolvimento Front End.</p>
+                    <p>Interesse em HTML Semântico, CSS, Responsividade e Boas Práticas de Desenvolvimento.</p>
+                    <p>Sempre buscando aprender novas tecnologias e evoluir por meio de projetos práticos.</p>
+                </div>
+            </section>
+            <section class="projetos" aria-labelledby="titulo-projetos">
+                <h2 class="projetos__titulo" id="titulo-projetos">Meus projetos</h2>
+                <ul class="projetos__lista">
+                    <li class="projetos__item">
+                        <article class="projeto-card">
+                            <h3 class="projeto-card__titulo">Card de Produto</h3>
+                            <p
+                                class="projeto-card__descricao"
+                            >
+                                Desenvolvimento de um componente de card de produto utilizando HTML e CSS,
+                                com foco em estruturação semântica, estilização, organização dos elementos e efeitos
+                                visuais.
+                            </p>
+                            <a
+                                class="projeto-card__link"
+                                href="https://card-produto-pearl.vercel.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Visualizar projeto
+                            </a>
+                        </article>
+                    </li>
+                    <li class="projetos__item">
+                        <article class="projeto-card">
+                            <h3 class="projeto-card__titulo">Contador</h3>
+                            <p
+                                class="projeto-card__descricao"
+                            >
+                                Aplicação de contador desenvolvida com React e TypeScript,
+                                explorando componentes, gerenciamento de estado e tipagem estática.
+                            </p>
+                            <a
+                                class="projeto-card__link"
+                                href="https://contador-react-ts.vercel.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Visualizar projeto
+                            </a>
+                        </article>
+                    </li>
+                    <li class="projetos__item">
+                        <article class="projeto-card">
+                            <h3 class="projeto-card__titulo">Desafio Final (Formação Empower 5.0)</h3>
+                            <p
+                                class="projeto-card__descricao"
+                            >
+                                Projeto desenvolvido como desafio final da Formação Empower 5.0,
+                                com foco na aplicação prática dos conhecimentos adquiridos durante a formação.
+                            </p>
+                            <a
+                                class="projeto-card__link"
+                                href="https://desafio-final-formacao-empower.onrender.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Visualizar projeto
+                            </a>
+                        </article>
+                    </li>
+                    <li class="projetos__item">
+                        <article class="projeto-card">
+                            <h3 class="projeto-card__titulo">Formulário</h3>
+                            <p
+                                class="projeto-card__descricao"
+                            >
+                                Formulário desenvolvido com HTML, CSS e JavaScript para validação simples de e-mail e senha.
+                            </p>
+                            <a
+                                class="projeto-card__link"
+                                href="https://formulario-kappa-tan.vercel.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Visualizar projeto
+                            </a>
+                        </article>
+                    </li>
+                    <li class="projetos__item">
+                        <article class="projeto-card">
+                            <h3 class="projeto-card__titulo">Portfólio</h3>
+                            <p
+                                class="projeto-card__descricao"
+                            >
+                                Portfólio pessoal desenvolvido com React para apresentar projetos,
+                                habilidades e informações profissionais, utilizando componentes para organizar a interface.
+                            </p>
+                            <a
+                                class="projeto-card__link"
+                                href="https://portfolio-hty2.vercel.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Visualizar projeto
+                            </a>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <nav class="contato" aria-label="Links de contato">
+                <h2 class="contato__titulo">Entre em contato</h2>
+                <ul class="contato__lista">
+                    <li class="contato__item">
+                        <a
+                            class="contato__link"
+                            href="tel:+5511960239336">
+                            Ligar para mim
+                        </a>
+                    </li>
+                    <li class="contato__item">
+                        <a
+                            class="contato__link"
+                            href="https://github.com/jonatasoliveiradasilva"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Github
+                        </a>
+                    </li>
+                    <li class="contato__item">
+                        <a
+                            class="contato__link"
+                            href="https://instagram.com/o_xonatas"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Instagram
+                        </a>
+                    </li>
+                    <li class="contato__item">
+                        <a
+                            class="contato__link"
+                            href="https://www.linkedin.com/in/jonatasoliveiradasilva"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li class="contato__item">
+                        <a
+                            class="contato__link"
+                            href="mailto:oliveirajonatassilva@gmail.com"
+                        >
+                            Enviar e-mail pelo Gmail
+                        </a>
+                    </li>
+                    <li class="contato__item">
+                        <a
+                            class="contato__link"
+                            href="mailto:oliveirajonatas@outlook.com.br"
+                        >
+                            Enviar e-mail pelo Outlook
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </main>
+        <footer class="rodape">
+            <p class="rodape__texto">&copy; 2026 Jônatas Oliveira da Silva. Todos os direitos reservados.</p>
+            <p class="rodape__credito">Desenvolvido com HTML, CSS e JavaScript.</p>
+        </footer>
+    </body>
+</html>
