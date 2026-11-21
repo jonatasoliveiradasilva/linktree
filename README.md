@@ -105,7 +105,8 @@ linktree/
 
 <p align="left">
     <a
-        href="https://wwww.github.com/jonatasoliveiradasilva"
+        style="text-decoration: none"
+        href="https://github.com/jonatasoliveiradasilva"
         target="_blank"
     >
         <img
@@ -116,6 +117,7 @@ linktree/
         />
     </a>
     <a
+        style="text-decoration: none"
         href="https://www.linkedin.com/in/jonatasoliveiradasilva"
         target="_blank"
     >
@@ -128,4 +130,4 @@ linktree/
     </a>
 </p>
 
-### ⭐ Se este projeto despertou seu interesse, fique à vontade para conhecer os meus outros repositórios!
+## ⭐ Se este projeto despertou seu interesse, fique à vontade para conhecer os meus outros repositórios!
